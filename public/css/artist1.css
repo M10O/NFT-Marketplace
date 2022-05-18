@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #F7F4FD;
+  }
+        
+  a.ex2:hover, a.ex2:active {font-size: 130%;}
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 40px 60px 40px 0px;
+    font-weight: 400;
+    text-decoration:none ;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  /* Hover Effect in Navigation Bar*/
+  li a:hover {
+    color: #8364e2;
+  }
+  .major1{
+    padding-right: 250px;
+  }
+
+
+.square {
+    height: 600px;
+    width: 1536px;
+    background-color: #ffffff;
+  }
+
+.logo{
+    font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+    font-weight: bolder;
+    position: absolute; top: 30px; left: 120px;
+}
+
+/* Connect Wallet BUtton */
+.button {
+    background-color: #8364e2; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute; top: 30px; right: 120px;
+    box-shadow: 1px 1px 1px #8f6df3, 0 0 25px #8f6df3, 0 0 5px #8f6df3;
+  }
+
+  .button1 {border-radius: 8px;}
+
+
+  /* End of nav bar */
+
+  .artistimg{
+    position: absolute; top: 180px; right: 1040px;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    border-color: #000000;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: #1b85db;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative; top: 80px; left: -290px;
+    z-index: 1;
+  }
+  
+  
+  .verified{
+    font-family: Wingdings;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative; top: 43px; left: 468px;
+    z-index: 1;
+  }
+
+  .text1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative; top: 20px; right:50px;
+    text-align: center;
+}
+
+.follow-button {
+    background-color: #1b85db; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    position: relative; top: -57px; right: -180px;
+    border-radius: 5px
+ }
+
+
+.text2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    position: relative; top: -20px; right:-610px;
+    font-weight: lighter;
+    line-height: 25px; 
+    opacity: 70%;
+}
+
+.text3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    position: relative; top: -12px; right:-640px;
+    font-weight: lighter;
+    line-height: 25px; 
+    opacity: 70%;
+}
+
+.location-img
+{
+    position: relative; top: -35px; right:-610px;
+    font-weight: lighter;
+    line-height: 25px; 
+    opacity: 50%;
+    width: 18px;
+    height: 18px;
+}
+
+
+#p1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    position: relative; top: -25px; right:-610px;
+    font-weight: lighter;
+    line-height: 25px; 
+    opacity: 70%;
+}
+
+.copy-button{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    position: relative; top: -50px; right:-850px;
+    font-weight: lighter;
+    line-height: 25px; 
+    opacity: 90%;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.copy-button:hover{
+    color: #1b85db;
+}
+
+/* ================================== */
+
+/* Other works of the artist section */
+
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  cursor: zoom-in;
+}
+.image:hover{
+  opacity: 90%;
+}
+
+.overlay {
+  position: relative; left: 130px; top: -70px;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.image1 {
+  height: 300px;
+  width: 300px;
+  position: relative; right: -130px;
+  cursor: zoom-in;
+}
+
+.image2 {
+
+  height: 300px;
+  width: 300px;
+  position: relative; right: -610px; top: -370px
+}
+
+.image3 {
+  height: 300px;
+  width: 300px;
+  position: relative; right: -1100px; top: -190px
+}
+
+/* ========================================= */
+
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body1{
+    background-color: #0855ae;
+}
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #000000;
+    background: #03549a;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.donate{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: -6px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}

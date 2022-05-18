@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #F7F4FD;
+  }
+        
+  a.ex2:hover, a.ex2:active {font-size: 130%;}
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 40px 60px 40px 0px;
+    font-weight: 400;
+    text-decoration:none ;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  /* Hover Effect in Navigation Bar*/
+  li a:hover {
+    color: #8364e2;
+  }
+  .major1{
+    padding-right: 250px;
+  }
+
+
+.square {
+    height: 600px;
+    width: 1536px;
+    background-color: #F7F4FD;
+  }
+  
+.logo{
+    font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+    font-weight: bolder;
+    position: absolute; top: 30px; left: 120px;
+}

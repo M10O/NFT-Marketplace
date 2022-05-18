@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiFT-NFT Trading</title>
+
+    <!-- Css -->
+    {{!-- <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/popup.css" rel="stylesheet"/>
+    <link href="css/timer.css" rel="stylesheet"/> --}}
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/9a74816bfc.js" crossorigin="anonymous"></script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+
+    <style>
+        *{
+    margin: 0%;
+}
+        .main_div{
+            background-color: #F7F4FD;
+            height: 600px;
+            width: 450px;
+            margin: 65px 525px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .main_div:hover
+    {
+      -moz-box-shadow: 0 0px 20px rgb(92, 87, 87);
+      -webkit-box-shadow: 0 0px 20px rgb(92, 87, 87);
+      box-shadow: 0 0 20px rgb(92, 87, 87);
+    }
+
+        .log{
+            color: #033249;
+            text-align: center;
+            font-size: x-large;
+            position: absolute;
+            top: 20px;
+            left: 42%;
+            font-weight: bold;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+
+        .Sign_Up{
+         font-family: 'DM Sans', sans-serif;
+position: absolute;
+            top: 100px;
+            left:20px;
+            color: #033249;
+            font-size: 23px;
+        }
+
+        .tb{
+            height: 25px;
+            width: 200px;
+            border: 2px solid #033249;
+            font-weight: bold;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+
+        .forgot{
+            position: absolute;
+            top: 153px;
+            left:270px;
+            font-size: 15px;   
+            text-decoration: none;
+            color: #033249;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+
+        .btn{
+            position: absolute;
+            height: 40px;
+            width: 105px;
+            top: 325px;
+            left: 37%;
+            font-size: 22px;
+            color: #033249;
+            border: 1px solid;
+            border-radius: 8px;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+
+        .btn:hover{
+            background-color: #8364e2;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .line{
+            position: absolute;
+            top: 380px;
+            left: 7%;
+            border:  0px  #033249;
+            display:inline-block;
+            width: 350px;
+            height: 1px;
+            background-color: #033249;
+        }
+
+        .ready{
+            position: absolute;
+            top: 385px;
+            left: 14%;
+        }
+
+        a{
+            text-decoration: none;
+            color: #033249;
+        }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #F7F4FD;
+  }
+        
+  a.ex2:hover, a.ex2:active {font-size: 130%;}
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 40px 60px 40px 0px;
+    font-weight: 400;
+    text-decoration:none ;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  /* Hover Effect in Navigation Bar*/
+  li a:hover {
+    color: #8364e2;
+  }
+  .major1{
+    padding-right: 250px;
+  }
+
+
+
+.logo{
+    font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+    font-weight: bolder;
+    position: absolute; top: 30px; left: 120px;
+}
+
+/* Connect Wallet BUtton */
+.button {
+    background-color: #8364e2; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute; top: 30px; right: 120px;
+    box-shadow: 1px 1px 1px #8f6df3, 0 0 25px #8f6df3, 0 0 5px #8f6df3;
+  }
+
+  .button1 {border-radius: 8px;}
+    </style>
+</head>
+<body bgcolor="white">
+       
+        <div>
+            <ul class="major1">
+                <li><a class="ex2" href="#About">About</a></li>
+                <li><a  class="ex2" href="wallet.html">Wallet</a></li>
+                <li><a class="ex2" href="#NFT">NFT</a></li>
+                <li><a class="active, ex2" href="#home">Home</a></li>
+            </ul>
+        </div>
+            <div class="logo">
+                <p> GiFT</p>
+            </div>
+            <div button class="button button1">Connect Wahhhhhhhhhhllet</button> 
+        </div>
+        <form action="/" method="post">
+    <div class="main_div">
+        <div class="log">
+            <p>Sign Up</p>
+        </div>
+        <div class="Sign_Up">
+            <table cellspacing="20" align="centre" cellpadding="8" border="0">
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" placeholder="Enter your Name" id="id1" class="tb" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="text" placeholder="Enter your Email Id" id="id2" class="tb" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" placeholder="Enter your password" id="id3" class="tb" name="password"/></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password :</td>
+                    <td><input type="password" placeholder="Confirm your password" id="id4" class="tb" name="confirmpassword"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                     <input type="submit" value="Sign Up" onclick="signUp()" class="btn"/>
+                    </td>
+                </tr>
+                <hr class="line">
+                <div class="ready">
+                    <a href="login_page.html"><p>Already had an account?Login</p></a>
+                </div>
+            </table>
+        </div>
+    </div>
+</form>
+    
+    <script>
+        function signUp()
+	{
+
+		var name= document.getElementById("id1").value;
+		var email= document.getElementById("id2").value;
+		var pwd= document.getElementById("id3").value;			
+		var cpwd= document.getElementById("id4").value;
+
+		if(name=='')
+		{
+			alert('Please enter your name');
+		}
+		else if(email=='')
+		{
+			alert('Please enter your user email id');
+		}
+		else if(pwd=='')
+		{
+			alert('Please enter Password');
+		}
+		else if(cpwd=='')
+		{
+			alert('Enter Confirm Password');
+		}
+		else if(pwd != cpwd)
+		{
+			alert ('Password not Matched');
+		}
+		else if(document.getElementById("id4").value.length < 6)
+		{
+			alert ('Password minimum length is 6');
+		}
+		else if(document.getElementById("id4").value.length > 6)
+		{
+			alert ('Password max length is 6');
+		}
+		else
+		{				                            
+            window.location.href ="home.html";  
+		}
+	}
+    </script>
+    
+    
+   
+</body>
+</html>

@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #F7F4FD;
+  }
+        
+  a.ex2:hover, a.ex2:active {font-size: 130%;}
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 40px 60px 40px 0px;
+    font-weight: 400;
+    text-decoration:none ;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  /* Hover Effect in Navigation Bar*/
+  li a:hover {
+    color: #8364e2;
+  }
+  .major1{
+    padding-right: 250px;
+  }
+
+  .square {
+    height: 370px;
+    width: 1536px;
+    background-color: #F7F4FD;
+  }
+
+.logo{
+    font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+    font-weight: bolder;
+    position: absolute; top: 30px; left: 120px;
+}
+
+/* Connect Wallet BUtton */
+.button {
+    background-color: #8364e2; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute; top: 30px; right: 120px;
+    box-shadow: 1px 1px 1px #8f6df3, 0 0 25px #8f6df3, 0 0 5px #8f6df3;
+  }
+
+  .button1 {border-radius: 8px;}
+
+/* Wallet*/
+
+.text1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    position: relative; top: 100px; right:30px;
+
+}
+
+.text2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 70;
+    text-align: center;
+    position: relative; top: 120px; right:30px;    
+    color: #3a3a3a;
+}
+
+.box
+    {
+      width: 150px;
+      border: none;
+      padding: 10px;
+    }
+    .box:hover
+    {
+      -moz-box-shadow: 0 0px 20px rgb(92, 87, 87);
+      -webkit-box-shadow: 0 0px 20px rgb(92, 87, 87);
+      box-shadow: 0 0 20px rgb(92, 87, 87);
+    }
+
+
+    img {
+      transition: transform .7s ease-in-out;
+    }
+    img:hover {
+      transform: rotate(360deg);
+    }
+    
+
+.wallet-box1{
+    border-radius: 20px;
+      background: #F7F4FD;
+      padding: 20px; 
+      width: 130px;
+      height: 130px;  
+      position: relative; bottom: -250px; left:200px;
+    
+    }
+
+  .walletimage1{
+      border-radius: none;
+      width: 80px;
+      height: 80px;  
+      position: relative; top: 0px; right: -20px;
+  }
+
+
+    .wallet-box2{
+      border-radius: 20px;
+        background: #F7F4FD;
+        padding: 20px; 
+        width: 130px;
+        height: 130px;  
+        position: relative; bottom: -80px; left:530px;
+      
+      }
+
+      .walletimage2{
+        border-radius: none;
+        width: 80px;
+        height: 80px;  
+        position: relative; top: 0px; right: -20px;
+    }
+
+
+      .wallet-box3{
+        border-radius: 20px;
+          background: #F7F4FD;
+          padding: 20px; 
+          width: 130px;
+          height: 130px;  
+          position: relative; top: -90px; left:860px;
+        
+        }
+
+        .walletimage3{
+          border-radius: none;
+          width: 80px;
+          height: 80px;  
+          position: relative; top: 0px; right: -20px;
+      }
+
+
+        .wallet-box4{
+          border-radius: 20px;
+            background: #F7F4FD;
+            padding: 20px; 
+            width: 130px;
+            height: 130px;  
+            position: relative; top: -260px; left:1180px;
+          
+          }
+
+          .walletimage4{
+            border-radius: none;
+            width: 80px;
+            height: 80px;  
+            position: relative; top: 0px; right: -20px;
+        }
+
+        /* a:hover {
+          color: yellow;
+        } */
+        .walletname1{
+          font-family: 'DM Sans', sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          text-align: center;
+          position: relative; top: 180px; right:485px;
+      
+      }
+
+      .walletname2{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        position: relative; top: 155px; right:155px;
+    
+    }
+
+    .walletname3{
+      font-family: 'DM Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      position: relative; top: 130px; right:-175px;
+  
+  }
+
+  .walletname4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative; top: 110px; left:495px;
+
+}
+
+/* ================ */
+
+
+    
+
+
+
